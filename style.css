@@ -1,0 +1,74 @@
+/*colors and fonts */
+body {
+	line-height: 1,5;
+	letter-spacing: 1px;
+	font-family: noto sans, sans-serif;
+	width: 700px;
+	margin:20px auto; 
+	text-align: justify;
+	background-color: #FFFAF7;
+}
+
+h1 {
+	color: #010a43;
+	font-family: 'Noto sans JP', sans-serif;
+	font-weight: bold;
+}
+
+h2 {
+	color: #5f6caf;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 545;
+}
+
+h3 {
+	color: #6e5773;
+}
+a {
+	color: #6e5773;
+}
+a:hover {
+	color: #da2d2d;
+}
+
+/*custom dedsign with class */	
+.container {
+	width: 700px;
+	margin: auto;
+	width: content;
+} 
+
+.card-white {
+	background-color: #a1e6e3;
+	border-radius: 5px;
+	margin: 20px 0;
+	padding: 40px;
+	box-shadow: 0px 20px 40px #6c5b7b;
+	text-align: center;
+	border: 4px red;
+	width: content;
+} 
+.img-circle {
+	border-radius: 100%;
+	} 
+
+.btn-blue {
+	background-color: red;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 4px;
+} 
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+} 
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+	} 
+
+.list-inline li {
+	display: inline;
+	padding: 1Opx;
+} 
